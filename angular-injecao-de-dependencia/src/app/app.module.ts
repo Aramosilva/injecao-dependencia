@@ -10,6 +10,10 @@ import { FoodAddComponent } from './shared/food-add/food-add.component';
 import { FormsModule } from '@angular/forms';
 import { FormsComponent } from './forms/forms.component';
 import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
+import { HomeComponent } from './pages/home/home.component';
+import { SobreComponent } from './pages/sobre/sobre.component';
+import { PageErrorComponent } from './pages/page-error/page-error.component';
+import { MenuComponent } from './shared/menu/menu.component';
 
 
 @NgModule({
@@ -18,7 +22,11 @@ import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.componen
     FoodListComponent,
     FoodAddComponent,
     FormsComponent,
-    ReactiveFormsComponent
+    ReactiveFormsComponent,
+    HomeComponent,
+    SobreComponent,
+    PageErrorComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
